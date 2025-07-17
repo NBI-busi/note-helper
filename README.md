@@ -107,3 +107,25 @@ noteでの公開時に必要なタグについても、各曜日に対応する�
 ⚠️ 注意：一次情報サイトからのデータ取得作業については、利用規約・ポリシーに抵触しないようにするため、あえて手動作業のままとしています。
 
 
+## 📁 Project Directory tentative Structure / プロジェクトのディレクトリ構成イメージ
+
+my_app/
+├─ app_main.py ← Main UI entry point / 起点となるメインUI
+├─ routines/ ← Modules for each day's process / 曜日ごとの処理モジュール
+│ ├─ monday_politics.py ← Monday: Politics and Commodities / 月曜：政治・コモディティ
+│ ├─ tuesday_agri.py ← Tuesday: Agricultural Markets / 火曜：農業市場
+│ ├─ thursday_energy.py ← Thursday: Energy Markets / 木曜：エネルギー市場
+│ ├─ friday_jpmarket.py ← Friday: Japanese Stock Market / 金曜：日本株
+│ ├─ saturday_usmarket.py ← Saturday: US Stock Market / 土曜：米国株
+│ └─ sunday_worldmarket.py ← Sunday: Global Market Overview / 日曜：世界市場
+├─ common/ ← Shared utilities (graphs, sheets, etc.) / 共通処理（グラフ・後処理など）
+│ ├─ sheet_utils.py ← GSpread and spreadsheet operations / GSpread接続など
+│ ├─ graph_utils.py ← Plotting and chart functions / グラフ関連関数
+│ ├─ doc_utils.py ← Text/document generation utilities / テキスト生成処理
+│ └─ ui_components.py ← Custom UI parts for Streamlit / UIの共通部品
+├─ assets/ ← Generated images and data files / 生成画像・CSVなど
+│ ├─ cftc_futuresonly.csv ← CFTC base data (Futures Only) / CFTC元データ（FuturesOnly）
+│ ├─ cftc_optionscombined.csv ← CFTC base data (Options Combined) / CFTC元データ（OptionsCombined）
+│ └─ graph1.png ← Example of generated chart / 生成された画像の例
+└─ .streamlit/
+└─ secrets.toml ← API keys (OpenAI, GCP, etc.) / APIキーの格納（OpenAI/GCPなど）
