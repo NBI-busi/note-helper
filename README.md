@@ -6,7 +6,7 @@ streamlit app to help posting on note(SNS)
 This project is a personal tool to support my weekly investment-related note-taking and content publishing.  
 I created it to help me reflect regularly on both financial results ("money economy") and long-term personal growth ("reputation economy").
 
-このプロジェクトは、自分自身の投資記録や発信を補助するために作成した個人ツールです。  
+このプロジェクトは、自分自身の投資学習や発信を補助するために作成した個人ツールです。  
 投資による成果（＝お金）と、活動の継続や発信による信頼の積み重ね（＝評価）の両面を意識しながら、定期的に振り返るために使っています。
 
 ---
