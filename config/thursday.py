@@ -3,7 +3,7 @@ title = "🔌 木曜ルーティン：エネルギー商品 ファンダメン�
 steps = [
     "IEA[国際エネルギー機関]の月次レポートの確認(https://www.iea.org/), 月1回・中旬頃",
     "IEA[米国エネルギー情報局]の週次レポートの確認(https://www.eia.gov/), 毎週",
-    "CFTC発表の機関投資家のポジション確認, 毎週発表(https://www.cftc.gov/...)"
+    "CFTC発表の機関投資家のポジション確認, 毎週発表(https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalCompressed/index.htm)"
 ]
 
 buttons = [
